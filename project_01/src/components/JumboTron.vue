@@ -69,14 +69,14 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-4" id="small_trips_div_parent_1">
-                        <SampleBarChart div_id="small_trips_div_1" parent_id="small_trips_div_parent_1" />
+                    <div class="col-sm-4" id="small_sample_parent_1">
+                        <SampleBarChart div_id="small_sample_1" parent_id="small_sample_parent_1" />
                     </div>
-                    <div class="col-sm-4" id="small_trips_div_parent_2">
-                        <SampleBarChart div_id="small_trips_div_2" parent_id="small_trips_div_parent_2" />
+                    <div class="col-sm-4" id="small_sample_parent_2">
+                        <SampleBarChart div_id="small_sample_2" parent_id="small_sample_parent_2" />
                     </div>
-                    <div class="col-sm-4" id="small_trips_div_parent_3">
-                        <SampleBarChart div_id="small_trips_div_3" parent_id="small_trips_div_parent_3" />
+                    <div class="col-sm-4" id="small_sample_parent_3">
+                        <SampleBarChart div_id="small_sample_3" parent_id="small_sample_parent_3" />
                     </div>
                 </div>
 
@@ -84,16 +84,16 @@
                     <div class="col-sm-4">
                         <p>The amount, frequency, and seasonality of trips are examined.</p>
                         <p>This seeks to deteremine the number of bikes needed for various scenarios.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        <p><a class="btn btn-secondary" href="#sample_row_1" role="button">View details &raquo;</a></p>
                     </div>
                     <div class="col-sm-4">
                         <p>Start and corresponding stop stations are examined.</p>
                         <p>This seeks to deteremine where additional stations are needed or there is an excess of stations.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        <p><a class="btn btn-secondary" href="#sample_row_2" role="button">View details &raquo;</a></p>
                     </div>
                     <div class="col-sm-4">
                         <p>This seeks to determine who is using this service.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        <p><a class="btn btn-secondary" href="#sample_row_3" role="button">View details &raquo;</a></p>
                     </div>
                 </div>
                 <hr>

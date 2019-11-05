@@ -47,8 +47,8 @@
                         
                         v.window = {};
                         var window = document.getElementById(sans_div_id)
-                        v.window.width = window.offsetWidth * 0.90
-                        v.window.height = window.offsetWidth * 0.90
+                        v.window.width = window.offsetWidth * 0.70
+                        v.window.height = window.offsetWidth * 0.70
 
                         v.margin = {};
                         v.margin.top = Math.floor(v.window.height * 0.1);
