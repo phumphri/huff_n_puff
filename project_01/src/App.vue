@@ -3,9 +3,9 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <JumboTron msg="Metrobike Share"/>
-    <SampleRow row_id="sample_row_1" col_id="sample_col_1" div_id="sample_div_1" />
-    <SampleRow row_id="sample_row_2" col_id="sample_col_2" div_id="sample_div_2" />
-    <SampleRow row_id="sample_row_3" col_id="sample_col_3" div_id="sample_div_3" />
+    <SampleRow row_id="sample_row_1" col_id="sample_col_1" div_id="sample_div_1" json_file="bars.json" />
+    <SampleRow row_id="sample_row_2" col_id="sample_col_2" div_id="sample_div_2" json_file="bars.json" />
+    <SampleRow row_id="sample_row_3" col_id="sample_col_3" div_id="sample_div_3" json_file="bars.json" />
   </div>
 </template>
 

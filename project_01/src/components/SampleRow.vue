@@ -1,18 +1,8 @@
 <template>
     <div>
-        <div v-bind:id="row_id" class="row">
+        <div  v-bind:id="row_id" class="row ml-5">
             <div class="col-sm-12">
-                <p> </p>>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <p> </p>>
-            </div>
-        </div>
-        <div class="row ml-5">
-            <div class="col-sm-12">
-                <h1>Sample Row Title</h1>
+                <h1>Sample Row Title for {{row_id}}</h1>
             </div>
         </div>
         <div class="row">
