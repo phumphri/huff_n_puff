@@ -12,9 +12,16 @@
 
         mounted() {
 
+            // Get a reference for the json file.
+            var var_json_file = this.json_file
+
             // The parent container is used to determine height and width.
-            var var_div_id = "#" + this.parent_id
             var sans_div_id = this.parent_id
+            var var_div_id = "#" + sans_div_id
+
+            // Create an unique identifier for the svg.
+            var sans_svg_id = sans_div_id + "_svg"
+            var var_svg_id = "#" + sans_svg_id
 
             // Create unique identifiers for the x axis and its label.
             var sans_x_axis_group = this.div_id + "_x_axis_group"
@@ -29,7 +36,7 @@
             var sans_y_axis_label = this.div_id + "_y_axis_label"
             var var_y_axis_label = "#" + sans_y_axis_label
 
-            d3.json("bars.json").then(d => {
+            d3.json(var_json_file).then(d => {
 
                 var v = {};
                 var g = {};
@@ -88,11 +95,11 @@
 
                 function set_up_svg() {
                     // Get a referenct to the "about" svg.
-                    v.svg = g.bar_chart_div.select("svg");
+                    v.svg = g.bar_chart_div.select(var_svg_id);
 
                     // If not found, create one.
                     if (v.svg.empty()) {
-                        v.svg = g.bar_chart_div.append("svg").attr("id", "about_svg");
+                        v.svg = g.bar_chart_div.append("svg").attr("id", sans_svg_id);
                     }
 
                     // Configure the svg.

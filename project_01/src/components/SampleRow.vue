@@ -21,7 +21,7 @@
             <div v-bind:id="col_id" class="col-sm-8">
                 <fileset class="mt-5">
                     <legend>Graphic</legend>
-                    <SampleBarChart v-bind:id="div_id" v-bind:parent_id="col_id" />
+                    <SampleBarChart :div_id="div_id" :parent_id="col_id" :json_file="json_file"/>
                 </fileset>
             </div>
         </div>
@@ -37,7 +37,7 @@
 
     export default {
         name: "SampleRow",
-        props: ["row_id", "col_id", "div_id"],
+        props: ["row_id", "col_id", "div_id", "json_file"],
         components: {
             SampleBarChart
         },

@@ -102,13 +102,13 @@
                 <!-- This contains the small version of the graphics. -->
                 <div class="row">
                     <div class="col-sm-4" id="small_sample_parent_1">
-                        <SampleBarChart div_id="small_sample_1" parent_id="small_sample_parent_1" />
+                        <SampleBarChart div_id="small_sample_1" parent_id="small_sample_parent_1" json_file="bars_1.json" />
                     </div>
                     <div class="col-sm-4" id="small_sample_parent_2">
-                        <SampleBarChart div_id="small_sample_2" parent_id="small_sample_parent_2" />
+                        <SampleBarChart div_id="small_sample_2" parent_id="small_sample_parent_2" json_file="bars_2.json" />
                     </div>
                     <div class="col-sm-4" id="small_sample_parent_3">
-                        <SampleBarChart div_id="small_sample_3" parent_id="small_sample_parent_3" />
+                        <SampleBarChart div_id="small_sample_3" parent_id="small_sample_parent_3" json_file="bars_3.json" />
                     </div>
                 </div>
 
